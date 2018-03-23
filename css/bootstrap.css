@@ -3433,11 +3433,12 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
+  color: white;
   padding: 10px 16px;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   border-radius: 6px;
-    background-color: lightyellow;
+    background-color: #104CEA;
 }
 .btn-sm,
 .btn-group-sm > .btn {
@@ -5466,13 +5467,14 @@ button.list-group-item-danger.active:focus {
   border-top-right-radius: 3px;
 }
 .panel-heading > .dropdown .dropdown-toggle {
-  color: inherit;
+  color: #104CEA;
 }
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 28px;
-  color: inherit;
+  color: black;
+  font-weight: bold;
 }
 .panel-title > a,
 .panel-title > small,
@@ -5841,7 +5843,7 @@ button.list-group-item-danger.active:focus {
 }
 .close {
   float: right;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: bold;
   line-height: 1;
   color: #000;
